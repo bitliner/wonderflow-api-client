@@ -1,10 +1,14 @@
 const {GraphqlClient, gql} = require('../');
 
-const uri = 'http://localhost:3000/graphql';
 
-let client = new GraphqlClient({
+// CREATE THE CLIENT
+const uri = 'http://localhost:3000/graphql';
+const client = new GraphqlClient({
   uri
 })
+
+// RUN A QUERY
+client
   .query({
     query: gql`query {
     success    
