@@ -2,32 +2,17 @@ const {GraphqlClient, gql} = require('../');
 
 
 // CREATE THE CLIENT
-const uri = 'http://localhost:3000/graphql';
+const uri = process.env.URI;
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
 const productName = 'prodottoWOW';
+
 const client = new GraphqlClient({
   uri,
   email,
   password,
 })
 
-// EXAMPLE OF A SIMPLE QUERY
-// client
-//   .query({
-//     query: gql`query {
-//     success    
-//   }`,
-//     variables: {
-
-//     }
-//   })
-//   .then((result) => {
-//     console.log('RESULT', result.data);
-//   })
-//   .catch((err) => {
-//     throw err;
-//   });
 
 // EXAMPLE LOGIN
 client
