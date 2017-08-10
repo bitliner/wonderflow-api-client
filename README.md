@@ -2,6 +2,14 @@
 
 NodeJS Client to access consumer feedback analytics
 
+## Installation
+
+`git clone git@github.com:wonderflow-bv/wonderflow-api-client.git`
+
+`cd wonderflow-api-client`
+
+`npm i`
+
 ## Usage
 
 Check [example](https://github.com/bitliner/wonderflow-api-client/blob/master/examples/graphql-client.js)
