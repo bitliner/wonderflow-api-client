@@ -12,6 +12,8 @@ NodeJS Client to access consumer feedback analytics
 
 ## Usage
 
-Check [example](https://github.com/bitliner/wonderflow-api-client/blob/master/examples/graphql-client.js)
+Check [example](https://github.com/bitliner/wonderflow-api-client/blob/master/examples/graphql-client.js) OR
 
-`URI=http://stage-api.wonderflow.co/graphql EMAIL=SUPERADMIN PASSWORD=TEST node examples/graphql-client.js`
+run
+
+$ `URI=http://stage-api.wonderflow.co/graphql EMAIL=SUPERADMIN PASSWORD=TEST node examples/graphql-client.js`
