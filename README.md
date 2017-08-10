@@ -4,11 +4,11 @@ NodeJS Client to access consumer feedback analytics
 
 ## Installation
 
-`git clone git@github.com:wonderflow-bv/wonderflow-api-client.git`
+1. clone repository: `git clone git@github.com:wonderflow-bv/wonderflow-api-client.git`
 
-`cd wonderflow-api-client`
+2. cd into repository: `cd wonderflow-api-client`
 
-`npm i`
+3. install dependencies: `npm i`
 
 ## Usage
 
