@@ -5,6 +5,7 @@ const {GraphqlClient, gql} = require('../');
 const uri = process.env.URI;
 const email = process.env.EMAIL;
 const password = process.env.PASSWORD;
+
 const productName = 'prodottoWOW';
 
 const client = new GraphqlClient({
