@@ -12,24 +12,35 @@ const client = new GraphqlClient({
 })
 
 // EXAMPLE OF A SIMPLE QUERY
+// client
+//   .query({
+//     query: gql`query {
+//     success    
+//   }`,
+//     variables: {
+
+//     }
+//   })
+//   .then((result) => {
+//     console.log('RESULT', result.data);
+//   })
+//   .catch((err) => {
+//     throw err;
+//   });
+
+// EXAMPLE LOGIN
 client
   .query({
     query: gql`query {
-    success    
-  }`,
+        success    
+    }`,
     variables: {
 
     }
   })
   .then((result) => {
-    console.log('RESULT', result.data);
+    console.log('RESULT', result.data.success);
   })
-  .catch((err) => {
-    throw err;
-  });
-
-// EXAMPLE LOGIN
-client
   .mutate({
     mutation: gql`
         mutation login($email: String!, $password: String!) {
