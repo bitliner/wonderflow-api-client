@@ -4,7 +4,7 @@ NodeJS Client to access consumer feedback analytics
 
 # Requirements
 
-* NodeJS
+* [NodeJS](https://nodejs.org/en/)
 
 ## Installation
 
